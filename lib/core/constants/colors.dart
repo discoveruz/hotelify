@@ -6,6 +6,16 @@ const blackText = Color(0xff393939);
 const grayDark = Color(0xff616167);
 const gray = Color(0xff999999);
 const offWhite = Color(0xffF5F5F5);
+
+// ! Shadows
+BoxShadow kButtonShadow = BoxShadow(
+  spreadRadius: 40.0,
+  offset: const Offset(0, 10),
+  color: const Color(0xFFF8A170).withOpacity(0.2),
+);
+const kTextShadow = Shadow(blurRadius: 4.0, offset: Offset(0, 0));
+
+// ! Gradients
 LinearGradient orangeLiner(double x1, double y1, double x2, double y2) {
   return LinearGradient(
     begin: Alignment(x1, y1),
