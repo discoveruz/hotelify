@@ -1,10 +1,35 @@
 import 'package:flutter/material.dart';
 
 const kWhite = Color(0xffffffff);
-LinearGradient linerColor(double x1, double y1, double x2, double y2) {
+const grayLight = Color(0xffDFDEDE);
+const blackText = Color(0xff393939);
+const grayDark = Color(0xff616167);
+const gray = Color(0xff999999);
+const offWhite = Color(0xffF5F5F5);
+LinearGradient orangeLiner(double x1, double y1, double x2, double y2) {
   return LinearGradient(
     begin: Alignment(x1, y1),
     end: Alignment(x2, y2),
     colors: const [Color(0xffF8A170), Color(0xffFFCD61)],
+  );
+}
+
+LinearGradient orangeOpaqueLiner(double x1, double y1, double x2, double y2) {
+  return LinearGradient(
+    begin: Alignment(x1, y1),
+    end: Alignment(x2, y2),
+    colors: const [Color(0xffFFC7A7), Color(0xffFFD579)],
+  );
+}
+
+LinearGradient shadowInCard(double x1, double y1, double x2, double y2) {
+  return LinearGradient(
+    begin: Alignment(x1, y1),
+    end: Alignment(x2, y2),
+    colors: [
+      const Color(0xff000000).withOpacity(0.7),
+      const Color(0xff000000).withOpacity(0.3),
+      const Color(0xff000000).withOpacity(0.0),
+    ],
   );
 }
