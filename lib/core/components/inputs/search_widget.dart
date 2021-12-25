@@ -1,9 +1,11 @@
 import 'package:hotelify/core/constants/imports.dart';
 
 class SearchWidget extends StatelessWidget {
-  const SearchWidget({Key key, this.controller, this.width, this.hint})
+  const SearchWidget(
+      {Key key, this.controller, this.width, this.hint, this.changed})
       : super(key: key);
   final TextEditingController controller;
+  final Function(String) changed;
   final String hint;
   final double width;
   @override
@@ -16,6 +18,7 @@ class SearchWidget extends StatelessWidget {
       ),
       child: TextFormField(
         controller: controller,
+        onChanged: changed,
         decoration: InputDecoration(
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(getWidth(10.0)),
