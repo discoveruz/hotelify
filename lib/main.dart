@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:hotelify/screens/main_page.dart';
+import 'package:hotelify/core/constants/imports.dart';
 
 void main() => runApp(const MyApp());
 
@@ -10,9 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      theme: ThemeData(
-        fontFamily: "Nunito"
-      ),
+      theme: ThemeData(fontFamily: "Nunito"),
       home: MainPage(),
     );
   }
