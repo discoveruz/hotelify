@@ -14,6 +14,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_svg: ^1.0.0
   provider: ^6.0.1
+  flutter_credit_card: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -44,12 +45,14 @@ flutter:
   fonts:
     - family: Nunito
       fonts:
-        - asset: assets/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf
+        - asset: assets/fonts/Nunito/static/Nunito-Medium.ttf
+          style: normal
+          weight: 400
     #       - asset: fonts/Schyler-Italic.ttf
     #         style: italic
     - family: Dosis
       fonts:
-        - asset: assets/fonts/Dosis/Dosis-VariableFont_wght.ttf
+        - asset: assets/fonts/Dosis/static/Dosis-Medium.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

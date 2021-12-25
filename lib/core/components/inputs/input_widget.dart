@@ -1,7 +1,7 @@
 import 'package:hotelify/core/constants/imports.dart';
 
-class SearchWidget extends StatelessWidget {
-  const SearchWidget(
+class InputWiget extends StatelessWidget {
+  const InputWiget(
       {Key key, this.controller, this.width, this.hint, this.changed})
       : super(key: key);
   final TextEditingController controller;
@@ -27,36 +27,12 @@ class SearchWidget extends StatelessWidget {
           ),
           constraints: const BoxConstraints(),
           contentPadding: EdgeInsets.only(
-              left: getWidth(46.0),
+              left: getWidth(14.0),
               right: getWidth(16.0),
-              top: getHeight(25.0)),
-          fillColor: grayLight,
+              top: getHeight(15.0)),
+          fillColor: grayLight.withOpacity(0.3),
           filled: true,
           hintText: hint,
-          prefixIcon: Padding(
-            padding: EdgeInsets.only(
-              left: getWidth(16.5),
-              right: getWidth(13.5),
-            ),
-            child: SvgPicture.asset(
-              kIconPath + 'search.svg',
-              color: grayLight.withOpacity(0.3),
-              width: getWidth(16.0),
-              height: getHeight(16.0),
-            ),
-          ),
-          prefixIconConstraints: const BoxConstraints(),
-          suffixIconConstraints: const BoxConstraints(),
-          suffix: InkWell(
-            onTap: () {
-              controller.clear();
-            },
-            child: SvgPicture.asset(
-              kIconPath + 'cancel.svg',
-              width: getWidth(11.0),
-              height: getHeight(11.0),
-            ),
-          ),
           hintStyle: TextStyle(color: gray, fontSize: getWidth(16.0)),
         ),
       ),

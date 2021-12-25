@@ -5,3 +5,4 @@ export 'package:hotelify/screens/main_page.dart';
 export 'package:flutter_svg/svg.dart';
 export 'package:hotelify/core/constants/colors.dart';
 export 'package:hotelify/core/constants/paths.dart';
+export 'package:hotelify/core/components/inputs/input_widget.dart';

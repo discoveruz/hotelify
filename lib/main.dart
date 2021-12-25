@@ -10,7 +10,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       theme: ThemeData(fontFamily: "Nunito"),
-      home: MainPage(),
+      home: Scaffold(
+        body: Center(
+          child: InputWiget(hint: "String",),
+        ),
+      ),
     );
   }
 }
