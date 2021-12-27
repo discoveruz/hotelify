@@ -18,7 +18,7 @@ BoxShadow kButtonShadow = BoxShadow(
 const kTextShadow = Shadow(blurRadius: 4.0, offset: Offset(0, 0));
 
 // ! Gradients
-LinearGradient orangeLiner(double x1, double y1, double x2, double y2) {
+LinearGradient orangeLinaer(double x1, double y1, double x2, double y2) {
   return LinearGradient(
     begin: Alignment(x1, y1),
     end: Alignment(x2, y2),
@@ -26,7 +26,7 @@ LinearGradient orangeLiner(double x1, double y1, double x2, double y2) {
   );
 }
 
-LinearGradient orangeOpaqueLiner(double x1, double y1, double x2, double y2) {
+LinearGradient orangeOpaqueLinaer(double x1, double y1, double x2, double y2) {
   return LinearGradient(
     begin: Alignment(x1, y1),
     end: Alignment(x2, y2),

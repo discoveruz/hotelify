@@ -27,14 +27,11 @@ class Test extends StatefulWidget {
 }
 
 class _TestState extends State<Test> {
-  String selected = "Choose";
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-       ),
+      body: Center(),
     );
   }
-
 }

@@ -18,7 +18,7 @@ class GradientButton extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           boxShadow: [kButtonShadow],
-          gradient: orangeLiner(-1.0, -0.0, 1.0, 0.0),
+          gradient: orangeLinaer(-1.0, -0.0, 1.0, 0.0),
         ),
         child: Text(
           text,
