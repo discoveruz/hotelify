@@ -6,3 +6,4 @@ export 'package:flutter_svg/svg.dart';
 export 'package:hotelify/core/constants/colors.dart';
 export 'package:hotelify/core/constants/paths.dart';
 export 'package:hotelify/core/components/inputs/input_widget.dart';
+export 'package:hotelify/widgets/text_widget.dart';

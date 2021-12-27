@@ -9,8 +9,10 @@ const offWhite = Color(0xffF5F5F5);
 
 // ! Shadows
 BoxShadow kButtonShadow = BoxShadow(
-  spreadRadius: 40.0,
-  offset: const Offset(0, 10),
+  blurRadius: 3.0,
+  spreadRadius: 2.0,
+  blurStyle: BlurStyle.solid,
+  offset: const Offset(1, 1),
   color: const Color(0xFFF8A170).withOpacity(0.2),
 );
 const kTextShadow = Shadow(blurRadius: 4.0, offset: Offset(0, 0));

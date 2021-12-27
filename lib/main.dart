@@ -9,12 +9,32 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      theme: ThemeData(fontFamily: "Nunito"),
-      home: Scaffold(
-        body: Center(
-          child: InputWiget(hint: "String",),
-        ),
+      theme: ThemeData(
+        fontFamily: "Nunito",
+        splashColor: Colors.transparent,
+        highlightColor: Colors.transparent,
       ),
+      home: Test(),
     );
   }
+}
+
+class Test extends StatefulWidget {
+  Test({Key key}) : super(key: key);
+
+  @override
+  State<Test> createState() => _TestState();
+}
+
+class _TestState extends State<Test> {
+  String selected = "Choose";
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+       ),
+    );
+  }
+
 }
