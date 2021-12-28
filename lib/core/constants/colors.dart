@@ -15,7 +15,13 @@ BoxShadow kButtonShadow = BoxShadow(
   offset: const Offset(1, 1),
   color: const Color(0xFFF8A170).withOpacity(0.2),
 );
-const kTextShadow = Shadow(blurRadius: 4.0, offset: Offset(0, 0));
+const kTextShadowButton = Shadow(blurRadius: 4.0, offset: Offset(0, 0));
+const kTextShadowScore = BoxShadow(
+  blurRadius: 2.0,
+spreadRadius: 2.0,
+  offset: Offset(0, 0),
+  color: Color.fromARGB(1, 255, 255, 255),
+);
 
 // ! Gradients
 LinearGradient orangeLinaer(double x1, double y1, double x2, double y2) {
