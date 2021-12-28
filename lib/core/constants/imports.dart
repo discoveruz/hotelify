@@ -10,3 +10,5 @@ export 'package:hotelify/widgets/text_widget.dart';
 export 'package:hotelify/core/components/buttons/dropdown_button.dart';
 export 'package:hotelify/core/components/buttons/switch.dart';
 export 'package:hotelify/core/components/elements/score_widget.dart';
+export 'package:hotelify/core/components/elements/location.dart';
+export 'package:hotelify/core/components/elements/step_widget.dart';

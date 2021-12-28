@@ -1,4 +1,3 @@
-import 'package:hotelify/core/components/elements/location.dart';
 import 'package:hotelify/core/constants/imports.dart';
 
 void main() => runApp(const MyApp());
@@ -31,7 +30,7 @@ class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: LocationWidget(),),
+      body: Center(),
     );
   }
 }
