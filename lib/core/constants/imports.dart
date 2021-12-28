@@ -12,3 +12,4 @@ export 'package:hotelify/core/components/buttons/switch.dart';
 export 'package:hotelify/core/components/elements/score_widget.dart';
 export 'package:hotelify/core/components/elements/location.dart';
 export 'package:hotelify/core/components/elements/step_widget.dart';
+export 'package:hotelify/core/components/elements/rating_widget.dart';

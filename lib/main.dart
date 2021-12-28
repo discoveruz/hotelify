@@ -30,7 +30,7 @@ class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(),
+      body: Center(child: Rating(rating: 4.3,),),
     );
   }
 }
