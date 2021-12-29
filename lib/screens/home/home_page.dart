@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:hotelify/core/base/sizeconfig.dart';
+import 'package:hotelify/core/constants/imports.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key key}) : super(key: key);

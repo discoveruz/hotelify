@@ -14,13 +14,13 @@ class MyApp extends StatelessWidget {
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
       ),
-      home: Test(),
+      home: const Test(),
     );
   }
 }
 
 class Test extends StatefulWidget {
-  Test({Key key}) : super(key: key);
+  const Test({Key key}) : super(key: key);
 
   @override
   State<Test> createState() => _TestState();
@@ -29,8 +29,8 @@ class Test extends StatefulWidget {
 class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Rating(rating: 4.3,),),
+    return const Scaffold(
+      body: Center(),
     );
   }
 }
