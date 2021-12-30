@@ -28,7 +28,9 @@ class MediumH extends StatelessWidget {
           height: getHeight(108.0),
           width: getWidth(265.0),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(getWidth(20.0)),
+            borderRadius: BorderRadius.only(
+                bottomRight: Radius.circular(getWidth(20.0)),
+                bottomLeft: Radius.circular(getWidth(20.0))),
             gradient: shadowInCard(0.0, 1.0, 0.0, -1.0),
           ),
         ),
