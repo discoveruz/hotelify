@@ -7,7 +7,7 @@ class Rating extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    return Ink(
+    return Container(
       height: getHeight(23.0),
       width: getWidth(50.0),
       decoration: BoxDecoration(
@@ -22,7 +22,6 @@ class Rating extends StatelessWidget {
             rating.toString(),
             size: 12.0,
             weight: FontWeight.bold,
-            color: kWhite,
             shadow: kTextShadowScore,
           ),
           SizedBox(width: getWidth(2.5)),

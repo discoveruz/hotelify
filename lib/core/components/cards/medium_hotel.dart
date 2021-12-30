@@ -37,7 +37,6 @@ class MediumH extends StatelessWidget {
           bottom: getHeight(38.0),
           child: TextWidget(
             name,
-            color: kWhite,
             weight: FontWeight.w700,
             size: 18.0,
           ),
@@ -49,7 +48,6 @@ class MediumH extends StatelessWidget {
             children: [
               TextWidget(
                 place,
-                color: kWhite,
                 size: 14.0,
                 weight: FontWeight.w600,
               ),
@@ -58,19 +56,16 @@ class MediumH extends StatelessWidget {
                 "\$" + price.toString() + "~",
                 size: 12.0,
                 weight: FontWeight.w600,
-                color: kWhite,
               ),
               SizedBox(width: getWidth(12.0)),
               TextWidget(
                 score.toString(),
                 size: 12.0,
                 weight: FontWeight.w600,
-                color: kWhite,
               ),
               SizedBox(width: getWidth(4.97)),
               SvgPicture.asset(
                 kIconPath + 'star.svg',
-                color: kWhite.withOpacity(0.5),
                 width: getWidth(12.54),
                 height: getHeight(11.99),
               )

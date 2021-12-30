@@ -1,3 +1,4 @@
+import 'package:hotelify/core/components/cards/small_hotel.dart';
 import 'package:hotelify/core/constants/imports.dart';
 
 void main() => runApp(const MyApp());
@@ -30,7 +31,13 @@ class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(),
+      body: Center(
+        child: SmallH(
+          image: "https://source.unsplash.com/random",
+          score: 4.3,
+          name: "Beach Resort Lux",
+        ),
+      ),
     );
   }
 }

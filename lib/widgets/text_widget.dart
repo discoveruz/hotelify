@@ -16,7 +16,7 @@ class TextWidget extends StatelessWidget {
     return Text(
       text,
       style: TextStyle(
-        color: color ?? gray,
+        color: color ?? kWhite,
         fontSize: getWidth(size ?? 16.0),
         fontWeight: weight ?? FontWeight.w400,
         fontFamily: font ?? "Nunito",

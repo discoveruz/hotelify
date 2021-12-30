@@ -2,7 +2,7 @@ import 'package:hotelify/core/constants/imports.dart';
 
 class Score extends StatelessWidget {
   const Score({Key key, this.score, this.type}) : super(key: key);
-  final String score;
+  final double score;
   final String type;
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,6 @@ class Score extends StatelessWidget {
       child: TextWidget(
         '\$$score',
         shadow: kTextShadowScore,
-        color: kWhite,
         size: 17.0,
         weight: FontWeight.bold,
       ),

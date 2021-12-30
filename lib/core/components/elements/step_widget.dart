@@ -19,14 +19,12 @@ class StepWidget extends StatelessWidget {
       child: active
           ? TextWidget(
               id.toString(),
-              color: kWhite,
               shadow: kTextShadowScore,
               size: 18.0,
               weight: FontWeight.bold,
             )
           : TextWidget(
               id.toString(),
-              color: kWhite,
               size: 18.0,
               weight: FontWeight.bold,
             ),
