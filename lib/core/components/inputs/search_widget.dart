@@ -17,7 +17,7 @@ class SearchWidget extends StatelessWidget {
         width: getWidth(width ?? 336.0),
       ),
       child: TextFormField(
-        style: TextStyle(color: blackText, fontSize: getWidth(16.0)),
+        style: TextStyle(color: kBlackText, fontSize: getWidth(16.0)),
         controller: controller,
         onChanged: changed,
         decoration: InputDecoration(

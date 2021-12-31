@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const kWhite = Color(0xffffffff);
 const grayLight = Color(0xffDFDEDE);
-const blackText = Color(0xff393939);
+const kBlackText = Color(0xff393939);
 const grayDark = Color(0xff616167);
 const gray = Color(0xff999999);
 const offWhite = Color(0xffF5F5F5);
@@ -18,7 +18,7 @@ BoxShadow kButtonShadow = BoxShadow(
 const kTextShadowButton = Shadow(blurRadius: 4.0, offset: Offset(0, 0));
 const kTextShadowScore = BoxShadow(
   blurRadius: 2.0,
-spreadRadius: 2.0,
+  spreadRadius: 2.0,
   offset: Offset(0, 0),
   color: Color.fromARGB(1, 255, 255, 255),
 );

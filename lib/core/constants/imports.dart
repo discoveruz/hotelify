@@ -25,3 +25,4 @@ export 'package:hotelify/core/components/buttons/gradient_button.dart';
 export 'package:hotelify/core/components/cards/small_hotel.dart';
 export 'package:hotelify/core/components/cards/large_min_hotel.dart';
 export 'package:hotelify/core/constants/aligments.dart';
+export 'package:hotelify/core/components/cards/large_hotel.dart';

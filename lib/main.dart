@@ -1,4 +1,3 @@
-import 'package:hotelify/core/components/cards/large_min_hotel.dart';
 import 'package:hotelify/core/constants/imports.dart';
 
 void main() => runApp(const MyApp());
@@ -31,7 +30,16 @@ class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(child: MediumH(image: "https://source.unsplash.com/random",name: "Random",place: "Wicci",price: 483,score: 2.3,),),
+      body: Center(
+        child: LargeH(
+          image: "https://source.unsplash.com/random",
+          name: "Ocean ",
+          place: "Wicci",
+          price: 483,
+          score: 2.3,
+          description: 'Ocean View 1 king Bed No prepayment',
+        ),
+      ),
     );
   }
 }
