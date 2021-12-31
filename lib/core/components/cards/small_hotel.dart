@@ -10,7 +10,7 @@ class SmallH extends StatelessWidget {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return Stack(
-      alignment: const Alignment(0.0, 1.0),
+      alignment: kBottom,
       children: [
         SizedBox(width: getWidth(197.0), height: getHeight(117.0)),
         ClipRRect(

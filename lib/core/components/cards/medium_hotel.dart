@@ -13,7 +13,7 @@ class MediumH extends StatelessWidget {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return Stack(
-      alignment: Alignment.bottomLeft,
+      alignment: kBottom,
       children: [
         ClipRRect(
           borderRadius: BorderRadius.circular(getWidth(20.0)),

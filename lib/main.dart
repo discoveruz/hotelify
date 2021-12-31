@@ -31,14 +31,7 @@ class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: LargeMinH(
-          image: 'https://source.unsplash.com/random',
-          name: "Beach Resort Lux",
-          score: 4.5,
-          isFull: false,
-        ),
-      ),
+      body: Center(child: MediumH(image: "https://source.unsplash.com/random",name: "Random",place: "Wicci",price: 483,score: 2.3,),),
     );
   }
 }

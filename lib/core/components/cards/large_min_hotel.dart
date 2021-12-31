@@ -16,7 +16,7 @@ class LargeMinH extends StatelessWidget {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return Stack(
-      alignment: const Alignment(0.0, 1.0),
+      alignment: kBottom,
       children: [
         ClipRRect(
           borderRadius: BorderRadius.only(
