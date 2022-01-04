@@ -16,7 +16,7 @@ class MediumH extends StatelessWidget {
       alignment: kBottom,
       children: [
         ClipRRect(
-          borderRadius: BorderRadius.circular(getWidth(20.0)),
+          borderRadius: kBorder20,
           child: Image.network(
             image,
             height: getHeight(186.0),

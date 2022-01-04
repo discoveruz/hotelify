@@ -14,7 +14,7 @@ class SmallH extends StatelessWidget {
       children: [
         SizedBox(width: getWidth(197.0), height: getHeight(117.0)),
         ClipRRect(
-          borderRadius: BorderRadius.circular(getWidth(20.0)),
+          borderRadius: kBorder20,
           child: Image.network(
             image,
             height: getHeight(108.58),
@@ -28,7 +28,7 @@ class SmallH extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.only(
                 bottomRight: Radius.circular(getWidth(20.0)),
-                bottomLeft: Radius.circular(getWidth(20.0))), 
+                bottomLeft: Radius.circular(getWidth(20.0))),
             gradient: shadowInCard(0.0, 1.0, 0.0, -1.0),
           ),
         ),

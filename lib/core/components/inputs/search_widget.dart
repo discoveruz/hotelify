@@ -22,7 +22,7 @@ class SearchWidget extends StatelessWidget {
         onChanged: changed,
         decoration: InputDecoration(
           border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(getWidth(10.0)),
+            borderRadius: kBorder10,
             borderSide: BorderSide.none,
           ),
           constraints: const BoxConstraints(),

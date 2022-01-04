@@ -26,7 +26,7 @@ class LargeH extends StatelessWidget {
           height: getHeight(289.0),
           decoration: BoxDecoration(
             color: kWhite,
-            borderRadius: BorderRadius.circular(getWidth(10.0)),
+            borderRadius: kBorder10,
           ),
         ),
         LargeMinH(
@@ -68,7 +68,6 @@ class LargeH extends StatelessWidget {
           ),
           right: getWidth(17.0),
           bottom: getHeight(13.0),
-
         )
       ],
     );

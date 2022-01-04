@@ -16,7 +16,7 @@ class MyDropDown extends StatelessWidget {
       width: getWidth(100.0),
       decoration: BoxDecoration(
           color: grayLight.withOpacity(0.3),
-          borderRadius: BorderRadius.circular(getWidth(10.0))),
+          borderRadius: kBorder10),
       child: PopupMenuButton<String>(
         key: _menuKey,
         child: Padding(
@@ -31,7 +31,7 @@ class MyDropDown extends StatelessWidget {
           ),
         ),
         shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(getWidth(10.0))),
+            borderRadius: kBorder10),
         itemBuilder: (_) => items
             .map((item) => PopupMenuItem<String>(
                   child: TextWidget(item, size: 16.0, weight: FontWeight.w400),
