@@ -1,3 +1,4 @@
+import 'package:hotelify/core/components/filters/filter_secondary.dart';
 import 'package:hotelify/core/constants/imports.dart';
 
 class MainPage extends StatefulWidget {
@@ -19,9 +20,9 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    return const Scaffold(
+    return Scaffold(
       backgroundColor: gray,
-      body: Center(child: PrimaryFilter()),
+      body: Center(child: SecondaryFilter(mapTap: () {}, filterTap: () {})),
       bottomNavigationBar: BottomBar(),
     );
   }
