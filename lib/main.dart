@@ -1,6 +1,15 @@
 import 'package:hotelify/core/constants/imports.dart';
 
-void main() => runApp(const MyApp());
+void main() {
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => BottomBarProvider()),
+      ],
+      child: const MyApp(),
+    ),
+  );
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({Key key}) : super(key: key);
@@ -41,6 +50,7 @@ class _TestState extends State<Test> {
           price: 1484,
         ),
       ),
+      bottomNavigationBar: BottomBar(),
     );
   }
 }

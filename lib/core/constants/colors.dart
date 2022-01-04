@@ -6,6 +6,7 @@ const kBlackText = Color(0xff393939);
 const grayDark = Color(0xff616167);
 const gray = Color(0xff999999);
 const offWhite = Color(0xffF5F5F5);
+const primaryColor = Color(0xffF8A170);
 
 // ! Shadows
 BoxShadow kButtonShadow = BoxShadow(

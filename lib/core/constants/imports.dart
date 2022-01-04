@@ -29,3 +29,5 @@ export 'package:hotelify/core/components/cards/large_hotel.dart';
 export 'package:hotelify/core/components/cards/room_info.dart';
 export 'package:hotelify/core/constants/borders.dart';
 export 'package:hotelify/widgets/option_widget.dart';
+export 'package:provider/provider.dart';
+export 'package:hotelify/services/providers/page_changer.dart';

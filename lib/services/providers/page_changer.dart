@@ -1,9 +1,10 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 
-class PageChanger extends ChangeNotifier {
-  int currentIndex = 0;
-  onTap(int i) {
-    currentIndex = i;
+class BottomBarProvider extends ChangeNotifier {
+  int index = 0;
+
+  void changeIndex(int i) {
+    index = i;
     notifyListeners();
   }
 }
