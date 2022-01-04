@@ -34,3 +34,4 @@ export 'package:hotelify/services/providers/page_changer.dart';
 export 'dart:math';
 export 'package:hotelify/core/components/filters/filter_primary.dart';
 export 'package:flutter/gestures.dart';
+export 'package:hotelify/core/components/filters/filter_secondary.dart';

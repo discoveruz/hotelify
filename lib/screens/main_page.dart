@@ -1,5 +1,6 @@
 import 'package:hotelify/core/components/filters/filter_secondary.dart';
 import 'package:hotelify/core/constants/imports.dart';
+import 'package:hotelify/screens/home/search/search_list.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key key}) : super(key: key);
@@ -22,7 +23,7 @@ class _MainPageState extends State<MainPage> {
     SizeConfig().init(context);
     return Scaffold(
       backgroundColor: gray,
-      body: Center(child: SecondaryFilter(mapTap: () {}, filterTap: () {})),
+      body: SearchList(),
       bottomNavigationBar: BottomBar(),
     );
   }

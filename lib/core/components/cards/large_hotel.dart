@@ -66,7 +66,7 @@ class LargeH extends StatelessWidget {
             weight: FontWeight.w800,
             space: -2,
           ),
-          right: getWidth(17.0),
+          right: getWidth(36.0),
           bottom: getHeight(13.0),
         )
       ],
