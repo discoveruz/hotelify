@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:hotelify/core/constants/imports.dart';
 
 class HomePage extends StatelessWidget {

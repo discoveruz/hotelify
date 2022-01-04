@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:hotelify/core/base/sizeconfig.dart';
-import 'package:hotelify/screens/home/home_page.dart';
-import 'package:hotelify/widgets/bottom_nav_bar.dart';
+import 'package:hotelify/core/constants/imports.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key key}) : super(key: key);
@@ -22,8 +19,9 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    return Scaffold(
-      body: pages[0],
+    return const Scaffold(
+      backgroundColor: gray,
+      body: Center(child: PrimaryFilter()),
       bottomNavigationBar: BottomBar(),
     );
   }

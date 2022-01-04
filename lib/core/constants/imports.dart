@@ -31,3 +31,5 @@ export 'package:hotelify/core/constants/borders.dart';
 export 'package:hotelify/widgets/option_widget.dart';
 export 'package:provider/provider.dart';
 export 'package:hotelify/services/providers/page_changer.dart';
+export 'dart:math';
+export 'package:hotelify/core/components/filters/filter_primary.dart';
