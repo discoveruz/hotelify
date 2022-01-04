@@ -5,7 +5,7 @@ class InputWiget extends StatelessWidget {
       {Key key, this.controller, this.width, this.hint, this.changed})
       : super(key: key);
   final TextEditingController controller;
-  final Function(String) changed;
+  final void Function(String) changed;
   final String hint;
   final double width;
   @override

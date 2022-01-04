@@ -24,33 +24,7 @@ class MyApp extends StatelessWidget {
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
       ),
-      home: const Test(),
-    );
-  }
-}
-
-class Test extends StatefulWidget {
-  const Test({Key key}) : super(key: key);
-
-  @override
-  State<Test> createState() => _TestState();
-}
-
-class _TestState extends State<Test> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: grayLight,
-      body: Center(
-        child: RoomInfo(
-          image: "https://source.unsplash.com/random",
-          name: "Standard King Room",
-          duration: "2 nights",
-          onTap: () {},
-          price: 1484,
-        ),
-      ),
-      bottomNavigationBar: BottomBar(),
+      home: const MainPage(),
     );
   }
 }
