@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Material App',
       theme: ThemeData(
         fontFamily: "Nunito",
@@ -30,16 +31,7 @@ class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: LargeH(
-          image: "https://source.unsplash.com/random",
-          name: "Ocean ",
-          place: "Wicci",
-          price: 483,
-          score: 2.3,
-          description: 'Ocean View 1 king Bed No prepayment',
-        ),
-      ),
+      body: Center(),
     );
   }
 }
