@@ -1,5 +1,4 @@
 import 'package:hotelify/core/constants/imports.dart';
-import 'package:hotelify/widgets/option_widget.dart';
 
 void main() => runApp(const MyApp());
 
@@ -31,12 +30,15 @@ class Test extends StatefulWidget {
 class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       backgroundColor: grayLight,
       body: Center(
-        child: OptionWidget(
-          icon: "bath.svg",
-          text: "Bath",
+        child: RoomInfo(
+          image: "https://source.unsplash.com/random",
+          name: "Standard King Room",
+          duration: "2 nights",
+          onTap: () {},
+          price: 1484,
         ),
       ),
     );
