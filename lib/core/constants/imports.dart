@@ -26,3 +26,5 @@ export 'package:hotelify/core/components/cards/small_hotel.dart';
 export 'package:hotelify/core/components/cards/large_min_hotel.dart';
 export 'package:hotelify/core/constants/aligments.dart';
 export 'package:hotelify/core/components/cards/large_hotel.dart';
+export 'package:hotelify/core/components/cards/room.dart';
+export 'package:hotelify/core/constants/borders.dart';

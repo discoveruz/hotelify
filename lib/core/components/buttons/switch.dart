@@ -56,7 +56,7 @@ class _CustomSwitchState extends State<CustomSwitch>
             width: getWidth(70.0),
             height: getHeight(34.0),
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20.0),
+                borderRadius: BorderRadius.circular(getWidth(20.0)),
                 color: _circleAnimation.value == Alignment.centerLeft
                     ? grayLight
                     : widget.activeColor,

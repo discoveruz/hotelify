@@ -31,7 +31,7 @@ class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(),
+      body: Center(child: RoomInfo(),),
     );
   }
 }
