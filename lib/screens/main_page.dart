@@ -1,5 +1,4 @@
 import 'package:hotelify/core/constants/imports.dart';
-import 'package:hotelify/screens/home/search/filter_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key key}) : super(key: key);
@@ -22,7 +21,7 @@ class _MainPageState extends State<MainPage> {
     SizeConfig().init(context);
     return Scaffold(
       backgroundColor: gray,
-      body: UserPage(),
+      body: NotificationPage(),
       bottomNavigationBar: BottomBar(),
     );
   }
