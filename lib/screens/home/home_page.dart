@@ -14,8 +14,8 @@ class HomePage extends StatelessWidget {
           children: [
             Stack(
               children: [
-                Image.network(
-                  unsplash,
+                Image.asset(
+                  "assets/images/backend.png",
                   width: getWidth(375.0),
                   height: getHeight(535.0),
                   fit: BoxFit.cover,

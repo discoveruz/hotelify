@@ -1,4 +1,5 @@
 import 'package:hotelify/core/constants/imports.dart';
+import 'package:hotelify/widgets/appbar_widget.dart';
 
 class FilterPage extends StatelessWidget {
   FilterPage({Key key}) : super(key: key);
@@ -8,40 +9,30 @@ class FilterPage extends StatelessWidget {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            TextWidget(
-              "Filter",
-              color: kBlackText,
-              size: getWidth(28.0),
-              weight: FontWeight.w700,
-            ),
-            InkWell(
-              onTap: () {},
-              child: Container(
-                alignment: Alignment.center,
-                child: TextWidget(
-                  "RESET",
-                  weight: FontWeight.w600,
-                  size: getWidth(16.0),
-                  color: grayDark,
-                ),
-                width: getWidth(84.0),
-                height: getHeight(30.0),
-                decoration: BoxDecoration(
-                  color: const Color(0xffF5F5F5),
-                  borderRadius: BorderRadius.circular(
-                    getWidth(10.0),
-                  ),
+      appBar: MyAppbar(
+        title: "Filter",
+        widgets: [
+          InkWell(
+            onTap: () {},
+            child: Container(
+              alignment: Alignment.center,
+              child: TextWidget(
+                "RESET",
+                weight: FontWeight.w600,
+                size: getWidth(16.0),
+                color: grayDark,
+              ),
+              width: getWidth(84.0),
+              height: getHeight(25.0),
+              decoration: BoxDecoration(
+                color: const Color(0xffF5F5F5),
+                borderRadius: BorderRadius.circular(
+                  getWidth(10.0),
                 ),
               ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
       body: Column(
         children: [
@@ -60,7 +51,7 @@ class FilterPage extends StatelessWidget {
             width: getWidth(338.0),
             height: getHeight(70.0),
             child: GradientButton(
-              TextWidget(
+              const TextWidget(
                 "Apply",
                 space: -2,
                 size: 24,
