@@ -1,4 +1,5 @@
 import 'package:hotelify/core/constants/imports.dart';
+import 'package:hotelify/screens/home/search/search_list.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key key}) : super(key: key);
@@ -60,7 +61,13 @@ class HomePage extends StatelessWidget {
                     "Search a room",
                     width: 338.0,
                     height: 70.0,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SearchList(),
+                          ));
+                    },
                   ),
                   top: getHeight(419.0),
                   left: getWidth(18.0),

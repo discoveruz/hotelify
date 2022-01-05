@@ -1,4 +1,5 @@
 import 'package:hotelify/core/constants/imports.dart';
+import 'package:hotelify/screens/home/search/search_list.dart';
 
 void main() {
   runApp(

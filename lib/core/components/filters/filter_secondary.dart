@@ -1,10 +1,11 @@
 import 'package:hotelify/core/constants/imports.dart';
 
 class SecondaryFilter extends StatelessWidget {
-  const SecondaryFilter({Key key, this.filterTap, this.mapTap})
+  const SecondaryFilter({Key key, this.filterTap, this.mapTap, this.isMap})
       : super(key: key);
   final void Function() filterTap;
   final void Function() mapTap;
+  final bool isMap;
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +33,7 @@ class SecondaryFilter extends StatelessWidget {
           const Spacer(),
           Text.rich(
             TextSpan(
-                text: "Map",
+                text: isMap ? "Map" : "ListView",
                 style: TextStyle(
                   fontSize: getWidth(16.0),
                   color: grayDark,

@@ -18,6 +18,7 @@ class SearchList extends StatelessWidget {
             SecondaryFilter(
               filterTap: () {},
               mapTap: () {},
+              isMap: true,
             ),
             SizedBox(height: getHeight(38.0)),
             Padding(
