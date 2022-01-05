@@ -58,7 +58,13 @@ class HomePage extends StatelessWidget {
                 ),
                 Positioned(
                   child: GradientButton(
-                    "Search a room",
+                    TextWidget(
+                      "Search a room",
+                      shadow: kButtonShadow,
+                      weight: FontWeight.w800,
+                      size: 24.0,
+                      space: -2,
+                    ),
                     width: 338.0,
                     height: 70.0,
                     onTap: () {

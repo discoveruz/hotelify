@@ -95,7 +95,12 @@ class RoomInfo extends StatelessWidget {
                     ],
                   ),
                   GradientButton(
-                    "Select",
+                    const TextWidget(
+                      'Select',
+                      weight: FontWeight.w700,
+                      size: 22.0,
+                      space: -2,
+                    ),
                     onTap: onTap,
                     height: 60.0,
                     width: 185.0,
