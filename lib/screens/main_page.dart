@@ -22,7 +22,7 @@ class _MainPageState extends State<MainPage> {
     SizeConfig().init(context);
     return Scaffold(
       backgroundColor: gray,
-      body: FilterPage(),
+      body: SearchPage(),
       bottomNavigationBar: BottomBar(),
     );
   }
