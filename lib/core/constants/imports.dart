@@ -37,3 +37,5 @@ export 'package:flutter/gestures.dart';
 export 'package:hotelify/core/components/filters/filter_secondary.dart';
 export 'package:hotelify/screens/home/search/search_list.dart';
 export 'package:hotelify/screens/home/map/search_map.dart';
+export 'package:hotelify/screens/home/search/filter_page.dart';
+export 'package:hotelify/screens/search/search_resault.dart';

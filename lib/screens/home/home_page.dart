@@ -1,5 +1,4 @@
 import 'package:hotelify/core/constants/imports.dart';
-import 'package:hotelify/screens/home/search/search_list.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key key}) : super(key: key);

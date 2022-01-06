@@ -20,7 +20,7 @@ class PrimaryFilter extends StatelessWidget {
             color: kBlackText,
           ),
           const Spacer(),
-          SvgPicture.asset(kIconPath + "down.svg")
+          SvgPicture.asset(kIconPath + "filter.svg")
         ],
       ),
     );

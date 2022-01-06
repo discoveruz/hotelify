@@ -1,6 +1,6 @@
 import 'package:hotelify/core/constants/imports.dart';
-import 'package:hotelify/screens/home/search/filter_page.dart';
-import 'package:hotelify/screens/search/serach_resault.dart';
+
+import 'package:hotelify/screens/search/search_resault_map.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key key}) : super(key: key);
@@ -23,7 +23,7 @@ class _MainPageState extends State<MainPage> {
     SizeConfig().init(context);
     return Scaffold(
       backgroundColor: gray,
-      body: SearchResultPage(),
+      body: SearchResaultMap(),
       bottomNavigationBar: BottomBar(),
     );
   }

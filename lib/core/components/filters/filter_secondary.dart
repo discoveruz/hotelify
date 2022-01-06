@@ -29,7 +29,7 @@ class SecondaryFilter extends StatelessWidget {
                 recognizer: TapGestureRecognizer()..onTap = filterTap),
           ),
           SizedBox(width: getWidth(8.0)),
-          SvgPicture.asset(kIconPath + "down.svg"),
+          SvgPicture.asset(kIconPath + "filter.svg"),
           const Spacer(),
           Text.rich(
             TextSpan(

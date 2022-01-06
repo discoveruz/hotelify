@@ -1,7 +1,7 @@
 import 'package:hotelify/core/constants/imports.dart';
 
-class SearchResultPage extends StatelessWidget {
-  const SearchResultPage({Key key}) : super(key: key);
+class SearchResaultPage extends StatelessWidget {
+  const SearchResaultPage({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class SearchResultPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(height: getHeight(34.0)),
+            SizedBox(height: getHeight(29.0)),
             SearchWidget(
               width: 338.0,
               hint: "Search",
