@@ -43,7 +43,7 @@ class LargeH extends StatelessWidget {
             weight: FontWeight.w600,
             size: 15.0,
           ),
-          left: getWidth(15.0),
+          left: getWidth(33.0),
           bottom: getHeight(67.0),
         ),
         Positioned(
@@ -53,7 +53,7 @@ class LargeH extends StatelessWidget {
             size: getWidth(14.0),
             color: kBlackText,
           ),
-          left: getWidth(15.0),
+          left: getWidth(33.0),
           bottom: getHeight(20.0),
           right: getWidth(146.0),
         ),

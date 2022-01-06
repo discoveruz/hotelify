@@ -33,7 +33,7 @@ class SecondaryFilter extends StatelessWidget {
           const Spacer(),
           Text.rich(
             TextSpan(
-                text: isMap ? "Map" : "ListView",
+                text: !isMap ? "Map" : "ListView",
                 style: TextStyle(
                   fontSize: getWidth(16.0),
                   color: grayDark,

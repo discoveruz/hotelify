@@ -48,7 +48,7 @@ class LargeMinH extends StatelessWidget {
             weight: FontWeight.w700,
           ),
           bottom: getHeight(15.09),
-          left: getWidth(15.59),
+          left: getWidth(33.0),
         ),
         Positioned(
           child: Rating(rating: score),
