@@ -39,3 +39,5 @@ export 'package:hotelify/screens/home/search/search_list.dart';
 export 'package:hotelify/screens/home/map/search_map.dart';
 export 'package:hotelify/screens/home/search/filter_page.dart';
 export 'package:hotelify/screens/search/search_resault.dart';
+export 'package:hotelify/screens/home/search/resault.dart';
+export 'package:hotelify/screens/search/search_resault_map.dart';

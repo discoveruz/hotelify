@@ -1,7 +1,8 @@
 import 'package:hotelify/core/constants/imports.dart';
 
 class LocationWidget extends StatelessWidget {
-  const LocationWidget({Key key}) : super(key: key);
+  const LocationWidget({Key key, this.icon}) : super(key: key);
+  final String icon;
 
   @override
   Widget build(BuildContext context) {
@@ -21,8 +22,8 @@ class LocationWidget extends StatelessWidget {
           ],
         ),
       ),
-      child: SvgPicture.asset(
-        kIconPath + "location.svg",
+      child: Image.asset(
+        kIconPath + icon,
         width: getWidth(15.0),
         height: getHeight(18.0),
       ),
